@@ -1,0 +1,8 @@
+<h2>All Employees</h2>
+<ul>
+  <ng-container *ngFor="let employee of employees">
+    <li>
+      {{ employee.employee_name }} - {{ employee.employee_salary }} - {{ employee.employee_age }} - {{ employee.role }}
+    </li>
+  </ng-container>
+</ul>
